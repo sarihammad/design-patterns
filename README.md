@@ -7,11 +7,7 @@ This repository provides implementations of common design patterns in Java. Each
 - [Introduction](#introduction)
 - [Design Patterns Covered](#design-patterns-covered)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -80,43 +76,6 @@ design-patterns/
 │── README.md
 │── pom.xml (Maven dependencies)
 │── .gitignore
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Java 11 or later
-- Maven installed (`mvn -version` to check)
-- An IDE (IntelliJ, Eclipse, or VS Code)
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/sarihammad/design-patterns.git
-cd design-patterns
-```
-
-2. Build the project:
-
-```bash
-mvn clean install
-```
-
-## Usage
-
-1. Navigate to a pattern's directory.
-2. Run the main method or test cases.
-3. Modify or extend the examples to experiment with different implementations.
-
-Example:
-
-```bash
-cd src/main/java/creational/singleton
-javac SingletonTest.java
-java SingletonTest
 ```
 
 ## Examples
